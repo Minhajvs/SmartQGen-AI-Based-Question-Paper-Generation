@@ -1,4 +1,4 @@
-**SmartQGen : AI-Based Question Paper Generation**
+# **SmartQGen : AI-Based Question Paper Generation**
 
 The ”SmartQGen” is a web-based application designed to simplify the creation of
 customized exam question sets. It allows users, such as educators, tutors, and
@@ -10,15 +10,15 @@ difficulty adjustments, time constraints, and topic-specific question filtering.
 tool aids in creating personalized practice sets, ensuring targeted and effective exam
 preparation.
 
-# Implementation
-## User Interface Tools
+## Implementation
+### User Interface Tools
 HTML: Used for structuring web pages and content.
 CSS: Employed for styling and layout design to enhance user experience.
 JavaScript: A dynamic programming language that makes web pages interactive.
-## Backend Tools
+### Backend Tools
 PHP
 MySQL
-## Testing Tools
+### Testing Tools
 ThunderClient Extension of VS Code
-## AI Technology
+### AI Technology
 Google Gemini AI
