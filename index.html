@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Upload Syllabus</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script> <!-- jsPDF Library -->
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Upload Syllabus for AI Question Generation</h2>
+        <form action="index.php" method="POST" enctype="multipart/form-data">
+            <input type="file" name="syllabus" required>
+            <select name="difficulty" required>
+                <option value="Easy">Easy</option>
+                <option value="Medium">Medium</option>
+                <option value="Hard">Hard</option>
+            </select>
+            <button type="submit">Generate Questions</button>
+        </form>
+
+        <?php if (isset($questions)): ?>
+            <h3>Generated Questions:</h3>
+            <pre id="generated-questions"><?php echo htmlspecialchars($questions); ?></pre>
+            <button onclick="copyToClipboard()">Copy</button>
+            <button onclick="downloadPDF()">Download as PDF</button>
+        <?php endif; ?>
+    </div>
+</body>
+</html>
