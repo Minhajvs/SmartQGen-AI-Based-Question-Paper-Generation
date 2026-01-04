@@ -8,15 +8,11 @@ The platform allows users to input syllabus details, modules, and previous exam 
 ---
 
 ## Features
-
-- Subject selection  
+ 
 - Syllabus and module upload  
 - Previous exam question input  
 - AI-generated questions  
 - Difficulty-level customization (Easy / Medium / Hard)  
-- Time constraint settings  
-- Topic-wise question filtering  
-- Personalized practice question sets  
 
 ---
 
@@ -57,7 +53,5 @@ The primary objective of SmartQGen is to reduce the manual effort involved in qu
 
 ## Future Enhancements
 
-- Export question papers as PDF or DOC files  
-- User authentication and role-based access  
 - Performance analytics and insights  
 - Support for multiple question formats (MCQs, descriptive, coding)  
