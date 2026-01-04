@@ -1,24 +1,63 @@
-# **SmartQGen : AI-Based Question Paper Generation**
+# SmartQGen  
+### AI-Based Question Paper Generation System
 
-The ”SmartQGen” is a web-based application designed to simplify the creation of
-customized exam question sets. It allows users, such as educators, tutors, and
-students, to input subject syllabus, modules, and previous exam questions. The
-platform automatically generates questions in three difficulty levels—easy, medium,
-and hard—based on the provided input. Key features include subject selection,
-syllabus/module upload, previous question input, and customization options such as
-difficulty adjustments, time constraints, and topic-specific question filtering. This
-tool aids in creating personalized practice sets, ensuring targeted and effective exam
-preparation.
+SmartQGen is a web-based application designed to simplify and automate the creation of customized exam question papers. It is intended for educators, tutors, and students who want intelligent, flexible, and efficient exam preparation tools.
 
-## Implementation
-### User Interface Tools
-HTML: Used for structuring web pages and content.
-CSS: Employed for styling and layout design to enhance user experience.
-JavaScript: A dynamic programming language that makes web pages interactive.
-### Backend Tools
-PHP
-MySQL
-### Testing Tools
-ThunderClient Extension of VS Code
+The platform allows users to input syllabus details, modules, and previous exam questions. Based on this input, the system automatically generates questions across three difficulty levels: Easy, Medium, and Hard.
+
+---
+
+## Features
+
+- Subject selection  
+- Syllabus and module upload  
+- Previous exam question input  
+- AI-generated questions  
+- Difficulty-level customization (Easy / Medium / Hard)  
+- Time constraint settings  
+- Topic-wise question filtering  
+- Personalized practice question sets  
+
+---
+
+## Technology Stack
+
+### Frontend (User Interface)
+
+- **HTML** – Structures the web pages and content  
+- **CSS** – Provides styling and layout for better user experience  
+- **JavaScript** – Adds interactivity and dynamic behavior  
+
+---
+
+### Backend
+
+- **PHP** – Handles server-side logic and AI integration  
+- **MySQL** – Manages data storage and retrieval  
+
+---
+
 ### AI Technology
-Google Gemini AI
+
+- **Google Gemini AI** – Generates context-aware and difficulty-based questions  
+
+---
+
+### Testing Tools
+
+- **ThunderClient** (VS Code Extension) – Used for API testing and validation  
+
+---
+
+## Objective
+
+The primary objective of SmartQGen is to reduce the manual effort involved in question paper creation while ensuring quality, relevance, and customization. The system leverages AI to deliver targeted and effective exam preparation.
+
+---
+
+## Future Enhancements
+
+- Export question papers as PDF or DOC files  
+- User authentication and role-based access  
+- Performance analytics and insights  
+- Support for multiple question formats (MCQs, descriptive, coding)  
