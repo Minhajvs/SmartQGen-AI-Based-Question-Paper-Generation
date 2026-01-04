@@ -9,6 +9,7 @@ The platform allows users to input syllabus details, modules, and previous exam 
 
 ## Features
  
+
 - Syllabus and module upload  
 - Previous exam question input  
 - AI-generated questions  
@@ -54,4 +55,4 @@ The primary objective of SmartQGen is to reduce the manual effort involved in qu
 ## Future Enhancements
 
 - Performance analytics and insights  
-- Support for multiple question formats (MCQs, descriptive, coding)  
+- Support for multiple question formats (MCQs, descriptive, coding) 
